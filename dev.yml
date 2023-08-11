@@ -1,0 +1,132 @@
+version: "3"
+
+services:
+    api:
+        ports:
+            - 8000:8000
+        build:
+            context: ./backend
+            dockerfile: ./Dockerfile_dev
+            args:
+                STATIC_URL: "/static/"
+        restart: unless-stopped
+        networks:
+            - ohealth
+        depends_on:
+            - db
+            - redis
+        volumes:
+            - ./backend/:/app/
+            # shared volume between worker and api for media
+            - ohealth-media:/app/media
+            - ohealth-static:/app/static
+        command: python manage.py runserver 0.0.0.0:8000
+        env_file: env.dev
+        environment:
+            - FRONTEND_URL=http://localhost:3000/
+
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: ./website/Dockerfile_dev
+        ports:
+            - 3000:3000
+        restart: unless-stopped
+        env_file: env.dev
+        volumes:
+            - ./frontend/:/app/
+        networks:
+            - ohealth
+        command: yarn dev
+
+    db:
+        image: postgres:11-alpine
+        ports:
+            - 5432:5432
+        restart: unless-stopped
+        networks:
+            - ohealth
+        volumes:
+            - ohealth-db:/var/lib/postgresql/data
+        environment:
+            - POSTGRES_USER=ohealth
+            - POSTGRES_PASSWORD=ohealth
+            - POSTGRES_DB=ohealth
+
+    worker:
+        build:
+            context: ./backend
+            dockerfile: ./Dockerfile
+            args:
+                STATIC_URL: "/static/"
+        command: celery -A backend --app=backend.celery:app worker --loglevel=info
+        restart: unless-stopped
+        networks:
+            - ohealth
+        env_file: env.dev
+        depends_on:
+            - redis
+            - mailhog
+        volumes:
+            - ./ohealth/templates/:/app/templates:Z,cached
+            # shared volume between worker and api for media
+            - ohealth-media:/app/media
+            - ohealth-static:/app/static
+
+    redis:
+        image: "redis:alpine"
+        command: redis-server --requirepass password
+        env_file:
+            - env.dev
+        ports:
+            - 6379:6379
+        restart: unless-stopped
+        networks:
+            - ohealth
+        volumes:
+            - ohealth-redis:/data
+
+    mailhog:
+        image: mailhog/mailhog
+        ports:
+            - 1025:1025 # smtp server
+            - 8025:8025 # web ui. Visit http://localhost:8025/ to check emails
+        restart: unless-stopped
+        networks:
+            - ohealth
+
+    meilisearch:
+        image: "getmeili/meilisearch:latest"
+        ports:
+            - 7700:7700
+        volumes:
+            - "ohealth-meilisearch:/meili_data"
+        networks:
+            - ohealth
+        healthcheck:
+            test:
+                [
+                    "CMD",
+                    "wget",
+                    "--no-verbose",
+                    "--spider",
+                    "http://localhost:7700/health",
+                ]
+            retries: 3
+            timeout: 5s
+
+volumes:
+    ohealth-media:
+        driver: local
+    ohealth-static:
+        driver: local
+    ohealth-db:
+        driver: local
+    ohealth-redis:
+        driver: local
+    ohealth-meilisearch:
+        driver: local
+
+networks:
+    ohealth:
+        driver: bridge

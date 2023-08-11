@@ -1,0 +1,105 @@
+version: "3"
+
+services:
+    api:
+        ports:
+            - 8000:8000
+        build:
+            context: ./backend
+            dockerfile: ./Dockerfile
+            args:
+                STATIC_URL: "/static/"
+        restart: unless-stopped
+        networks:
+            - ohealth-backend-tier
+        depends_on:
+            - db
+            - redis
+        volumes:
+            - ./backend/templates/:/app/templates:Z
+            - ./backend/tests/:/app/tests
+            # shared volume between worker and api for media
+            - ohealth-media:/app/media
+            - ohealth-static:/app/static
+        command: python manage.py runserver 0.0.0.0:8000
+        env_file: env.development
+        environment:
+            - FRONTEND_URL=http://localhost:3000/
+
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: ./website/Dockerfile
+        ports:
+            - 3000:3000
+        restart: unless-stopped
+        env_file: env.development
+        networks:
+            - ohealth-backend-tier
+        command: yarn start
+
+    db:
+        image: library/postgres:11.1-alpine
+        ports:
+            - 5433:5432
+        restart: unless-stopped
+        networks:
+            - ohealth-backend-tier
+        volumes:
+            - ohealth-db:/var/lib/postgresql/data
+        environment:
+            - POSTGRES_USER=ohealth
+            - POSTGRES_PASSWORD=ohealth
+            - POSTGRES_DB=ohealth
+
+    worker:
+        build:
+            context: ./backend
+            dockerfile: ./Dockerfile
+            args:
+                STATIC_URL: "/static/"
+        command: celery -A backend --app=backend.celery:app worker --loglevel=info
+        restart: unless-stopped
+        networks:
+            - ohealth-backend-tier
+        env_file: env.development
+        depends_on:
+            - redis
+            - mailhog
+        volumes:
+            - ./ohealth/templates/:/app/templates:Z,cached
+            # shared volume between worker and api for media
+            - ohealth-media:/app/media
+
+    redis:
+        image: library/redis:5.0-alpine
+        ports:
+            - 6379:6379
+        restart: unless-stopped
+        networks:
+            - ohealth-backend-tier
+        volumes:
+            - ohealth-redis:/data
+
+    mailhog:
+        image: mailhog/mailhog
+        ports:
+            - 1025:1025 # smtp server
+            - 8025:8025 # web ui. Visit http://localhost:8025/ to check emails
+        restart: unless-stopped
+        networks:
+            - ohealth-backend-tier
+
+volumes:
+    ohealth-db:
+        driver: local
+    ohealth-redis:
+        driver: local
+    ohealth-media:
+        driver: local
+    ohealth-static:
+        driver: local
+
+networks:
+    ohealth-backend-tier:
+        driver: bridge

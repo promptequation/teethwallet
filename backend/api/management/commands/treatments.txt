@@ -1,0 +1,879 @@
+fissure sealing
+Topical application of dental products
+Topical application of fluorides
+Topical application of fluoride varnishes
+Topical application of casein phosphate
+plate developer application
+Application of desensitizing agent
+oral prophylaxis
+Adult prophylaxis
+Prophylaxis in children
+Instruction for the promotion of oral health
+Oral hygiene instruction and motivation for adults
+Oral hygiene instruction and motivation for children
+Nutritional counseling for the control of diseases of the oral cavity
+Anti-smoking counseling for oral health control and prevention
+Manufacture and clinical adaptation of a resilient maxillary interposition appliance for the prevention of sequelae of external trauma
+Definitive direct restoration (CC=01-Amalgam; =02-Composite resin; =03-CIVM)
+Direct definitive amalgam restoration (DD=Number of Faces)
+Definitive direct one-face amalgam restoration
+Definitive direct restoration in two-sided amalgam
+Definitive direct restoration in three-sided amalgam
+Definitive direct restoration in four-sided amalgam
+Definitive direct restoration in five-sided amalgam
+Direct definitive restoration in composite resin (DD=Number of Faces)
+Definitive direct restoration in composite resin of one face
+Definitive direct restoration in two-sided composite resin
+Definitive direct restoration in three-sided composite resin
+Definitive direct restoration in four-sided composite resin
+Definitive direct restoration in five-sided composite resin
+Definitive direct restoration in modified glass ionomer cement (DD=Number of Faces)
+Definitive direct restoration in one-sided modified glass ionomer cement
+Definitive direct restoration in two-sided modified glass ionomer cement
+Definitive direct restoration in three-sided modified glass ionomer cement
+Definitive direct restoration in four-sided modified glass ionomer cement
+Definitive direct restoration in five-sided modified glass ionomer cement
+Indirect restoration (CC=02-Composite resin)
+Indirect composite resin restoration (DD=Number of faces)
+Indirect composite resin restoration of one face
+Indirect restoration in two-sided composite resin
+Indirect restoration in three-sided composite resin
+Indirect restoration in four-sided composite resin
+Indirect restoration in five-sided composite resin
+Provisional restoration (CC=02-Composite resin; =03-CIVM; 04-Glass ionomer cement; =05-Zinc Oxide)
+Provisional restoration in composite resin (DD=Number of faces)
+Temporary restoration in composite resin of one face
+Temporary restoration in two-sided composite resin
+Temporary restoration in three-sided composite resin
+Provisional restoration in four-sided composite resin
+Five-sided composite resin temporary restoration
+Temporary restoration in modified glass ionomer cement (DD=Number of faces)
+Temporary restoration in one-sided modified glass ionomer cement
+Temporary restoration in two-sided modified glass ionomer cement
+Temporary restoration in three-sided modified glass ionomer cement
+Temporary restoration in four-sided modified glass ionomer cement
+Temporary restoration in five-sided modified glass ionomer cement
+Temporary restoration in glass ionomer cement (DD=Number of faces)
+One-sided glass ionomer cement temporary restoration
+Temporary restoration in double-sided glass ionomer cement
+Temporary restoration in three-sided glass ionomer cement
+Temporary restoration in four-sided glass ionomer cement
+Temporary restoration in five-sided glass ionomer cement
+Temporary restoration in zinc oxide (DD=Number of faces)
+One-sided provisional zinc oxide restoration
+Temporary two-sided zinc oxide restoration
+Temporary restoration in three-sided zinc oxide
+Temporary four-sided zinc oxide restoration
+Five-sided zinc oxide temporary restoration
+Direct pulp protection
+Direct pulp protection with calcium hydroxide
+Direct pulp protection with MTA
+Additional physical restraints
+metallic spike
+fiber post
+Individualized post in fiber-reinforced composite resin
+dentin post
+Reinforcement with ceramic inlay
+Dental fragment bonding
+Maintenance of restorations
+Amalgam restoration polishing
+Amalgam restoration polishing and marginal sealing
+Composite resin restoration polishing
+Composite resin restoration polishing and surface sealing
+microabrasion
+coronoplasty
+bleaching
+internal bleaching
+Intensive in-office whitening session
+Outpatient internal whitening session
+External bleaching
+In-office intensive external whitening
+Outpatient external whitening
+In-office assisted external whitening
+Individualized matrix making
+splinting
+Splinting with composite resin without reinforcing means
+Splinting with composite resin and reinforcing media
+bite lifting
+Bite lifting application
+Bite lift removal
+Endodontic treatment - Single session (CC=01-Chemical-mechanical preparation; =02-filling)
+Chemical-mechanical preparation (DD=Number of channels)
+Chemical-mechanical tooth preparation with a root canal
+Chemical-mechanical tooth preparation with two channels
+Chemical-mechanical tooth preparation with three channels
+Chemical-mechanical tooth preparation with four channels
+Chemical-mechanical tooth preparation with five channels
+Canal shutter (DD=Number of channels)
+One-channel tooth canal filling
+Two-channel tooth canal filling
+Three-channel tooth canal filling
+Four-channel tooth canal filling
+Five-channel tooth canal filling
+Endodontic treatment - Multiple sessions (CC=01-Chemical-mechanical preparation; =02-filling)
+Chemical-mechanical preparation (DD=Number of channels)
+Chemical-mechanical tooth preparation with a root canal
+Chemical-mechanical tooth preparation with two channels
+Chemical-mechanical tooth preparation with three channels
+Chemical-mechanical tooth preparation with four channels
+Chemical-mechanical tooth preparation with five channels
+Canal shutter (DD=Number of channels)
+One-channel tooth canal filling
+Two-channel tooth canal filling
+Three-channel tooth canal filling
+Four-channel tooth canal filling
+Five-channel tooth canal filling
+Endodontic retreatment - Single session (CC=01-Prep. chemical-mechanical.; =02-Obtur.;=03-Unobtur.)
+Chemical-mechanical preparation (DD=Number of channels)
+Chemical-mechanical tooth preparation with a root canal
+Chemical-mechanical tooth preparation with two channels
+Chemical-mechanical tooth preparation with three channels
+Chemical-mechanical tooth preparation with four channels
+Chemical-mechanical tooth preparation with five channels
+Canal shutter (DD=Number of channels)
+One-channel tooth canal filling
+Two-channel tooth canal filling
+Three-channel tooth canal filling
+Four-channel tooth canal filling
+Five-channel tooth canal filling
+Channel Unshutter (DD=Number of channels)
+One-channel tooth canalar unobturation
+Two-channel tooth canalar unobturation
+Three-channel tooth canalar unobturation
+Four-channel tooth canalar unobturation
+Five-channel tooth canalar unobturation
+Endodontic retreatment - Multiple sessions (CC=01-Prep. chemical-mechanical; =02-Obtur.;=03-Unobtur.)
+Chemical-mechanical preparation (DD=Number of channels)
+Chemical-mechanical tooth preparation with a root canal
+Chemical-mechanical tooth preparation with two channels
+Chemical-mechanical tooth preparation with three channels
+Chemical-mechanical tooth preparation with four channels
+Chemical-mechanical tooth preparation with five channels
+Canal shutter (DD=Number of channels)
+One-channel tooth canal filling
+Two-channel tooth canal filling
+Three-channel tooth canal filling
+Four-channel tooth canal filling
+Five-channel tooth canal filling
+Channel Unshutter (DD=Number of channels)
+One-channel tooth canalar unobturation
+Two-channel tooth canalar unobturation
+Three-channel tooth canalar unobturation
+Four-channel tooth canalar unobturation
+Five-channel tooth canalar unobturation
+channel obstructions
+Approach to a fractured instrument in the root canal
+Removal of fractured instrument in root canal
+Elimination of blockage in the root canal
+Elimination of step in the root canal
+Elimination of calcification in the root canal
+Root post removal
+Endodontic microsurgery
+Endodontic microsurgery of single-rooted tooth
+Endodontic microsurgery of multirooted tooth
+Diagnostic exploratory microsurgery
+apexification
+Apexification of single-rooted tooth
+Apexification of multirooted tooth
+Treatment session for apexification
+apexogenesis
+Apexogenesis of single-rooted tooth
+Apexogenesis of multirooted tooth
+Treatment session aimed at inducing apexogenesis
+repairs
+Root perforation repairs
+Non-surgical root perforation repair
+Surgical repair of root perforation
+Furcation Drilling Repairs
+Non-surgical repair of furcation perforation
+Furcation perforation surgical repair
+Root resorption treatments
+External root resorption treatment
+Internal root resorption treatment
+Pulpotomies
+Single-rooted tooth pulpotomy
+Multirooted tooth pulpotomy
+Urgent coronary pulpectomy
+Emergency coronary pulpectomy of single-rooted tooth
+Emergency coronary pulpectomy of multirooted tooth
+Application of intracanal medication
+Intra-coronary sealing
+Preparation of channel space for post
+Deciduous teeth extraction (DD=01-Monoradicular; =02-Multiradicular)
+Single-rooted deciduous tooth extraction
+Multirooted deciduous tooth extraction
+Single-rooted primary tooth extraction with odontosection
+Multirooted deciduous tooth extraction with odontosection
+Single-rooted primary tooth extraction with osteotomy
+Multirooted primary tooth extraction with osteotomy
+Single-rooted primary tooth extraction with odontosection and osteotomy
+Multirooted primary tooth extraction with odontosection and osteotomy
+Single-rooted deciduous tooth extraction
+Impacted multirooted deciduous tooth extraction
+Permanent tooth extraction (DD=01-Monoradicular; =02-Multiradicular)
+Single root tooth extraction
+Multi-rooted tooth extraction
+Single-rooted tooth extraction with odontosection
+Multirooted tooth extraction with odontosection
+Single-rooted tooth extraction with osteotomy
+Multirooted tooth extraction with osteotomy
+Single-rooted tooth extraction with odontosection and osteotomy
+Multirooted tooth extraction with odontosection and osteotomy
+Impacted single-rooted tooth extraction
+Impacted multirooted tooth extraction
+Extraction of supernumerary teeth
+Supernumerary tooth extraction
+Supernumerary tooth extraction with odontosection
+Supernumerary tooth extraction with osteotomy
+Supernumerary tooth extraction with odontosection and osteotomy
+Extraction of an impacted supernumerary tooth
+surgical curettage
+germectomy
+traumatology
+Intentional single-rooted tooth replantation
+Intentional reimplantation of multirooted tooth
+Post-traumatic tooth repositioning
+hemisection
+root amputation
+autotransplants
+Single-rooted tooth autotransplantation
+Multirooted tooth autotransplantation
+drainages
+Abscess drainage through the oral mucosa
+Coronary abscess drainage
+Abscess drainage through the skin
+Drainage of hematoma through the oral mucosa
+Coronary hematoma drainage
+Cutaneous hematoma drainage
+periapical surgery
+Periapical single-rooted tooth surgery
+Periapical surgery of multirooted tooth
+cyst enucleation
+cyst marsupialization
+Soft tissue tumor excision
+Bone tumor excision
+biopsies
+soft tissue biopsy
+hard tissue biopsy
+aspiration biopsy
+Minor salivary gland biopsy
+Sialolithotomy
+Deepening of the vestibule (DD=id. of quadrant if CC=01; DD=id. of sextant if CC=02)
+Deepening of the vestibule - first quadrant
+Deepening of the vestibule - second quadrant
+Deepening of the vestibule - third quadrant
+Deepening of the vestibule - fourth quadrant
+Deepening of the vestibule - first sextant
+Deepening of the vestibule - second sextant
+Deepening of the vestibule - third sextant
+Deepening of the vestibule - fourth sextant
+Deepening of the vestibule - fifth sextant
+Deepening of the vestibule - sixth sextant
+Excision of gingival bands (DD=Quadrant Id if CC=01; DD=Sextant Id if CC=02)
+Excision of gingival bands - first quadrant
+Excision of gingival bands - second quadrant
+Excision of gingival bands - third quadrant
+Excision of gingival bands - fourth quadrant
+Excision of gingival bands - first sextant
+Excision of gingival bands - second sextant
+Excision of gingival bands - third sextant
+Excision of gingival bands - fourth sextant
+Excision of gingival bands - fifth sextant
+Excision of gingival bands - sixth sextant
+excision of lesions
+Excision of tongue lesion in anterior 2/3
+Excision of tongue lesion in posterior 1/3
+Lip lesion excision
+Excision of floor of mouth lesion
+Excision of lesions of the buccal mucosa
+Excision of palate lesions
+Frenectomies
+lingual frenectomy
+Upper lip frenectomy
+Lower lip frenectomy
+phrenotomy
+lingual frenotomy
+upper lip frenotomy
+Lower lip frenotomy
+Corrections of bone defects
+Correction of bone defects without biomaterials
+Correction of bone defects with biomaterials
+Correction of bone defects using membranes (non-resorbable)
+Correction of bone defects using (resorbable) membranes
+osteoplasties
+Osteoplasty with biomaterials
+Osteoplasty without biomaterials
+Maxillary sinus lift
+Maxillary sinus lift with biomaterials
+Maxillary sinus lift without biomaterials
+Ulectomy
+ulotomy
+Bone fenestration to favor eruption
+Exposure of impacted tooth for orthodontic traction
+Oro-antral communication closure
+Alveolar bone distraction
+cryotherapy session
+laser therapy session
+arthrocentesis
+Sialometry
+Lithotripsy of salivary stones
+De-epithelialization of the oral mucosa
+Volume augmentation to correct peri-oral defects
+Suture
+Surgical wound suture - Non-Resorbable / Absorbable
+Non-operative wound suturing
+suture removal
+Recording the diagnosis on the periodontogram
+scaling
+bimaxillary scaling
+maxillary scaling
+mandibular scaling
+dental polishing
+Removal of dental pigment with bicarbonate jet
+Scaling and root planing (DD=Quadrant ID if CC=02; DD=Sextant ID if CC=03)
+Scaling and root planing
+Scaling and root planing - 1st Quadrant
+Scaling and root planing - 2nd Quadrant
+Scaling and root planing - 3rd Quadrant
+Scaling and root planing - 4th Quadrant
+Scaling and root planing - 1st Sextant
+Scaling and root planing - 2nd Sextant
+Scaling and root planing - 3rd Sextant
+Scaling and root planing - 4th Sextant
+Scaling and root planing - 5th Sextant
+Scaling and root planing - 6th Sextant
+Periodontal maintenance treatment
+Gingivoplasty (DD=Quadrant Id if CC=02; DD=Sextant Id if CC=03)
+gingivoplasty
+Gingivoplasty - 1st Quadrant
+Gingivoplasty - 2nd Quadrant
+Gingivoplasty - 3rd Quadrant
+Gingivoplasty - 4th Quadrant
+Gingivoplasty - 1st Sextant
+Gingivoplasty - 2nd Sextant
+Gingivoplasty - 3rd Sextant
+Gingivoplasty - 4th Sextant
+Gingivoplasty - 5th Sextant
+Gingivoplasty - 6th Sextant
+Gingivectomy (DD=Quadrant Id if CC=02; DD=Sextant Id if CC=03)
+gingivectomy
+Gingivectomy - 1st Quadrant
+Gingivectomy - 2nd Quadrant
+Gingivectomy - 3rd Quadrant
+Gingivectomy - 4th Quadrant
+Gingivectomy - 1st Sextant
+Gingivectomy - 2nd Sextant
+Gingivectomy - 3rd Sextant
+Gingivectomy - 4th Sextant
+Gingivectomy - 5th Sextant
+Gingivectomy - 6th Sextant
+Flap surgery (DD=Quadrant ID if CC=02; DD=Sextant ID if CC=03)
+flap surgery
+Flap surgery - 1st Quadrant
+Flap surgery - 2nd Quadrant
+Flap Surgery - 3rd Quadrant
+Flap surgery - 4th Quadrant
+Flap surgery - 1st Sextant
+Flap surgery - 2nd Sextant
+Flap surgery - 3rd Sextant
+Flap surgery - 4th Sextant
+Flap surgery - 5th Sextant
+Flap surgery - 6th Sextant
+Flap surgery with autogenous bone graft (DD=Quadrant Id if CC=02; DD=Sextant Id if CC=03)
+Flap surgery for regenerative periodontal treatment
+Flap surgery for regenerative periodontal treatment - 1st Quadrant
+Flap surgery for regenerative periodontal treatment - 2nd Quadrant
+Flap surgery for regenerative periodontal treatment - 3rd Quadrant
+Flap surgery for regenerative periodontal treatment - 4th Quadrant
+Flap surgery for regenerative periodontal treatment - 1st Sextant
+Flap surgery for regenerative periodontal treatment - 2nd Sextant
+Flap surgery for regenerative periodontal treatment - 3rd Sextant
+Flap surgery for regenerative periodontal treatment - 4th Sextant
+Flap surgery for regenerative periodontal treatment - 5th Sextant
+Flap surgery for regenerative periodontal treatment - 6th Sextant
+gingival grafts
+Gingival or connective tissue graft to increase adherent gingiva and alveolar ridge
+Gingival or connective tissue graft for root coverage
+Bone graft for alveolar ridge augmentation
+periodontal regeneration
+Guided tissue regeneration for correction of infrabony defects
+Guided tissue regeneration for root coverage
+Use of enamel matrix protein derivative to correct infrabony defects
+Use of enamel matrix protein derivatives for root coverage
+Bone replacement materials for correction of infrabony defects
+membrane removal
+Topical application of medication
+Diagnosis / Treatment Plan
+Rehabilitation study with implants
+Rehabilitation study with implants with computer program
+Radiological guide (per arch)
+Surgical guide (per arch)
+Surgical guide obtained through imaging study
+implant surgery
+Surgery to place an implant
+Surgery to place more than 1 implant (per implant)
+Surgery to place a transepithelial abutment
+Surgery to place more than 1 transepithelial abutment (per abutment)
+Surgery for temporary implant placement
+Surgery to place more than 1 temporary implant (per implant)
+Surgery for zygomatic implant placement (by implant)
+Surgery to place an immediate post-extraction implant
+Surgery for immediate post-extraction implant placement with immediate fixed provisionalization
+Surgery for implant placement with immediate fixed provisionalization
+Surgery for placement of more than 1 implant with immediate fixed provisionalization (per implant)
+Surgery for placement of more than 1 implant with immediate fixed provisioning (per element)
+Surgery for implant placement with immediate fixed full-arch provisionalization
+Surgery for implant placement with immediate removable full-arch provisionalization
+implant explantation
+bone regeneration
+Bone regeneration prior to implant placement
+Simultaneous bone regeneration with implant placement
+Simultaneous bone regeneration with implant explantation
+Maxillary sinus floor elevation surgery
+Surgery for maxillary sinus elevation with lateral window and use of allograft
+Surgery for maxillary sinus elevation with lateral window and use of autograft
+Treatment of peri-implant lesions
+Scraping, smoothing and disinfection of the implant surface without surgical opening (per implant)
+Scraping, smoothing and disinfection of the implant surface with surgical opening (per implant)
+Scraping, smoothing and disinfection of the implant surface with surgical opening and use of bone regeneration materials (per implant)
+Materials to be used in bone regeneration techniques, maxillary sinus floor elevation and treatment of peri-implant lesions
+Autologous bone graft
+Bone replacement materials
+non-resorbable membrane
+resorbable membrane
+enamel matrix proteins
+Removable Prosthodontics (CC=01-Acrylic Resin; =02 -Cobalt-Chrome; =03 Nylon; =04 Titanium)
+Acrylic resin prostheses ( DD = Number of Teeth )
+Acrylic resin prosthesis with one tooth
+Acrylic resin prosthesis with two teeth
+Acrylic resin prosthesis with three teeth
+Acrylic resin prosthesis with four teeth
+Acrylic resin prosthesis with five teeth
+Acrylic resin denture with six teeth
+Acrylic resin prosthesis with seven teeth
+Acrylic resin prosthesis with eight teeth
+Acrylic resin prosthesis with nine teeth
+Acrylic resin prosthesis with ten teeth
+Acrylic resin prosthesis with eleven teeth
+Twelve-tooth acrylic resin prosthesis
+Acrylic resin prosthesis with thirteen teeth
+Acrylic resin prosthesis with fourteen teeth
+Cobalt-Chrome Prostheses ( DD = Number of Teeth )
+Cobalt-chrome denture with one tooth
+Cobalt-chrome denture with two teeth
+Cobalt-chrome denture with three teeth
+Cobalt-chrome prosthesis with four teeth
+Five-tooth cobalt-chrome denture
+Cobalt-chrome denture with six teeth
+Cobalt-chrome denture with seven teeth
+Cobalt-chrome prosthesis with eight teeth
+Cobalt-chrome prosthesis with nine teeth
+Cobalt-chrome denture with ten teeth
+Cobalt-chrome prosthesis with eleven teeth
+Twelve-tooth cobalt-chrome denture
+Thirteen teeth cobalt-chrome denture
+Cobalt-chrome prosthesis with fourteen teeth
+Nylon prostheses (DD= No. of Teeth)
+Nylon prosthesis with one tooth
+Nylon prosthesis with two teeth
+Nylon prosthesis with three teeth
+Nylon prosthesis with four teeth
+Nylon prosthesis with five teeth
+Nylon prosthesis with six teeth
+Nylon prosthesis with seven teeth
+Nylon prosthesis with eight teeth
+Nylon prosthesis with nine teeth
+Nylon prosthesis with ten teeth
+Nylon prosthesis with eleven teeth
+Twelve-tooth nylon prosthesis
+Nylon prosthesis with thirteen teeth
+Nylon prosthesis with fourteen teeth
+Titanium prostheses ( DD = Number of Teeth )
+Titanium prosthesis with one tooth
+Titanium denture with two teeth
+Titanium prosthesis with three teeth
+Titanium prosthesis with four teeth
+Titanium prosthesis with five teeth
+Titanium denture with six teeth
+Titanium denture with seven teeth
+Titanium prosthesis with eight teeth
+Titanium prosthesis with nine teeth
+Titanium prosthesis with ten teeth
+Titanium prosthesis with eleven teeth
+Titanium prosthesis with twelve teeth
+Titanium prosthesis with thirteen teeth
+Titanium prosthesis with fourteen teeth
+Dental preparation for removable dentures
+Evidences
+test with waxes
+metallic skeleton test
+test with teeth
+prosthetic elements
+prefabricated hook
+stainless steel hook
+tongue bar
+palatal bar
+aesthetic hook
+Miscellaneous in removable prosthodontics on implants
+Dolder bar trough
+Dolder bar
+denture repairs
+Printless denture repair
+Printed denture repair
+Skeletal prosthesis welding
+additions
+Tooth addition in acrylic resin prosthesis without impression
+Adding a tooth in an acrylic resin prosthesis with printing
+Hook addition in acrylic resin prosthesis
+Stainless steel bar addition without printing
+Stainless steel bar addition with printing
+Addition of saddle over skeletal prosthesis with welding and tooth
+Cobalt-chrome mesh addition
+Tongue or palatal bar added in cobalt-chrome
+cast hook
+fused occlusal face
+direct rebases
+hard direct rebase
+soft direct rebase
+indirect rebases
+hard indirect rebase
+soft indirect rebase
+fixed prosthodontics
+dental preparation
+Dental preparation for fixed denture crown
+Tooth preparation for fixed prosthesis abutment crown
+Tooth preparation for inlay
+Dental preparation for false post stump
+Dental preparation for veneers
+Tooth preparation for adhesive bridge retainer
+Spikes and false stumps
+Spike and false stump (direct method)
+Cast post and false stump
+Cast and ceramic post and false stump
+Spike with retention system
+Single fixed prosthodontics
+ Temporary crowns, veneers or inlays
+Acrylic temporary crown (direct method)
+Acrylic temporary crown (indirect method)
+Temporary composite crown (direct method)
+Temporary veneer (direct method)
+temporary inlay
+permanent crowns
+acrylic crown
+Ceromer crown
+metallic crown
+Preformed metal crown
+metal acrylic crown
+metal-ceramic crown
+Metal ceramic crown with ceramic shoulder
+ceramic crown
+ceramic veneer
+metal inlays
+Metal inlay of a tooth face
+Metal inlay on two dental faces
+Metal inlay of three dental faces
+Metal inlay on four dental faces
+Five-sided tooth metal inlay
+ceramic inlays
+Ceramic inlay of a tooth surface
+Ceramic inlay on two dental faces
+Ceramic inlay of three dental faces
+Ceramic inlay of four dental faces
+Five-sided dental ceramic inlay
+Bridges - abutment teeth
+provisional abutment crowns
+Acrylic temporary abutment crown (direct method)
+Acrylic temporary abutment crown (indirect method)
+Temporary abutment inlay
+Screw-retained provisional abutment crown on implant
+Temporary abutment crown cemented on implant
+definitive pillar crowns
+Abutment crown in acrylic resin
+Ceromer abutment crown
+metallic pillar crown
+metaloacrylic abutment crown
+Metal-ceramic abutment crown
+ceramic pillar crown
+Screw-retained abutment crown on implant
+Cemented abutment crown over implant
+Metal pillar inlays
+Metal abutment inlay of a tooth surface
+Two-sided metal abutment inlay
+Metal abutment inlay with three dental faces
+Metal abutment inlay with four dental faces
+Metal abutment inlay with five dental faces
+Metal retainer for adhesive bridge
+Ceramic pillar inlays
+Ceramic abutment inlay of a tooth surface
+Ceramic abutment inlay with two dental faces
+Ceramic abutment inlay with three dental faces
+Ceramic abutment inlay with four dental faces
+Ceramic abutment inlay with five dental faces
+Ceramic retainer for adhesive bridge
+Bridges - Pontic Crown
+Temporary Pontic Crowns
+Temporary pontic crown in acrylic resin (direct method)
+Temporary pontic crown in acrylic resin (indirect method)
+definitive pontic crowns
+Pontic crown in acrylic resin
+Pontic crown in ceromer
+metallic pontic crown
+metalloacrylic pontic crown
+metal-ceramic pontic crown
+ceramic pontic crown
+Impressions / Records
+Maxillary impression (standard tray)
+Mandibular impression (standard tray)
+Maxillary impression (individual tray)
+Mandibular impression (individual tray)
+Printing for denture repair
+Study models
+intermaxillary registration
+Screwed intermaxillary registration
+Individual mold construction
+Facebow assembly
+Connections (Attachment)
+ball connector
+Ball-on-implant connector
+intra-coronary connector
+extra coronary connector
+transepithelial abutment connector
+Cementation in fixed prosthodontics
+Crown cemented over tooth
+Cemented crown over implant
+Screw-retained crown over implant
+Cemented bridge over teeth
+Cemented bridge over implants
+Screw-retained cemented bridge over implants
+Old fixed denture cementation on teeth
+Cementation of old fixed prosthesis on implants
+Cementation of old fixed prosthesis screwed on implants
+Several
+Miscellaneous in fixed prosthodontics
+Diagnostic wax-up, per element
+Direct mock-up in resin, per element
+Indirect resin mock-up, per element
+Fixed denture repair
+Preformed crown for deciduous teeth
+Single crown disassembly
+bridge disassembly
+Temporary bridge cast metal reinforcement (each element)
+metal proof
+ceramic proof
+Various in fixed prosthodontics on implants
+Fused transpethelial pillar
+Metal-ceramic transpethelial abutment
+Ceramic transpethelial abutment
+Prefabricated metallic transpethelial abutment
+Mechanized base cast metallic transpethelial abutment
+Maxillary obturator prostheses in acrylic resin (DD = Number of Teeth)
+Maxillary obturator prosthesis in acrylic resin with one tooth
+Maxillary obturator prosthesis in acrylic resin with two teeth
+Maxillary obturator prosthesis in acrylic resin with three teeth
+Maxillary obturator prosthesis in acrylic resin with four teeth
+Acrylic resin maxillary obturator prosthesis with five teeth
+Maxillary obturator prosthesis in acrylic resin with six teeth
+Maxillary obturator prosthesis in acrylic resin with seven teeth
+Maxillary obturator prosthesis in acrylic resin with eight teeth
+Acrylic resin maxillary obturator prosthesis with nine teeth
+Maxillary obturator prosthesis in acrylic resin with ten teeth
+Maxillary obturator prosthesis in acrylic resin with eleven teeth
+Maxillary obturator prosthesis in acrylic resin with twelve teeth
+Maxillary obturator prosthesis in acrylic resin with thirteen teeth
+Maxillary obturator prosthesis in acrylic resin with fourteen teeth
+Cobalt-chrome maxillary obturator prostheses (DD= Number of Teeth)
+Cobalt-chrome maxillary obturator prosthesis with one tooth
+Cobalt-chrome maxillary obturator prosthesis with two teeth
+Cobalt-chrome maxillary obturator prosthesis with three teeth
+Cobalt-chrome maxillary obturator prosthesis with four teeth
+Cobalt-chrome maxillary obturator prosthesis with five teeth
+Cobalt-chrome maxillary obturator prosthesis with six teeth
+Cobalt-chrome maxillary obturator prosthesis with seven teeth
+Cobalt-chrome maxillary obturator prosthesis with eight teeth
+Cobalt-chrome maxillary obturator prosthesis with nine teeth
+Cobalt-chrome maxillary obturator prosthesis with ten teeth
+Cobalt-chrome maxillary obturator prosthesis with eleven teeth
+Cobalt-chrome maxillary obturator prosthesis with twelve teeth
+Cobalt-chrome maxillary obturator prosthesis with thirteen teeth
+Cobalt-chrome maxillary obturator prosthesis with fourteen teeth
+Nylon maxillary obturator prostheses
+Nylon maxillary obturator prosthesis with one tooth
+Nylon maxillary obturator prosthesis with two teeth
+Nylon maxillary obturator prosthesis with three teeth
+Nylon maxillary obturator prosthesis with four teeth
+Nylon maxillary obturator prosthesis with five teeth
+Nylon maxillary obturator prosthesis with six teeth
+Nylon maxillary obturator prosthesis with seven teeth
+Nylon maxillary obturator prosthesis with eight teeth
+Nylon maxillary obturator prosthesis with nine teeth
+Nylon maxillary obturator prosthesis with ten teeth
+Nylon maxillary obturator prosthesis with eleven teeth
+Twelve-tooth nylon maxillary obturator prosthesis
+Nylon maxillary obturator prosthesis with thirteen teeth
+Nylon maxillary obturator prosthesis with fourteen teeth
+Titanium maxillary obturator prostheses
+Titanium maxillary obturator prosthesis with one tooth
+Titanium maxillary obturator prosthesis with two teeth
+Titanium maxillary obturator prosthesis with three teeth
+Titanium maxillary obturator prosthesis with four teeth
+Titanium maxillary obturator prosthesis with five teeth
+Titanium maxillary obturator prosthesis with six teeth
+Titanium maxillary obturator prosthesis with seven teeth
+Titanium maxillary obturator prosthesis with eight teeth
+Titanium maxillary obturator prosthesis with nine teeth
+Titanium maxillary obturator prosthesis with ten teeth
+Titanium maxillary obturator prosthesis with eleven teeth
+Titanium maxillary obturator prosthesis with twelve teeth
+Titanium maxillary obturator prosthesis with thirteen teeth
+Titanium maxillary obturator prosthesis with fourteen teeth
+impressions
+Alginate impression of maxillectomy surgical site
+Elastomer impression of maxillectomy surgical site
+Ear prosthesis printing
+Printing for making a nose prosthesis
+Face mask and face model
+Suerson's velo-palatal filling prostheses (CC=01-Acrylic resin;=02-Chrome-Cobalt;=03-Nylon;=04-Titanium)
+Warnkros velo-palatal filling prostheses (CC=01-Acrylic resin;=02-Chrome-Cobalt;=03-Nylon;=04-Titanium)
+Schiltsky's velo-palatal filling prostheses (CC=01-Acrylic resin;=02-Chrome-Cobalt;=03-Nylon;=04-Titanium)
+Fröshell velo-palatal filling prostheses (CC=01-Acrylic resin;=02-Chrome-Cobalt;=03-Nylon;=04-Titanium)
+jaw prostheses
+nose prosthesis
+ear prosthesis
+hemiface prosthesis
+Hemiface prosthesis without eyeball
+Hemiface prosthesis with eyeball
+clinical study
+orthodontic study
+Orthodontic Study Models
+Imaging analysis
+Lateral cephalometric analysis
+frontal cephalometric analysis
+Basal cephalometric analysis
+Determination of bone age
+Model analysis
+Analysis of study models
+Facebow assembly
+Analysis of study models with articulator mounting
+space maintainers
+Removable space maintainer
+Fixed space maintainer
+Gadgets
+Biomechanical removable appliances
+Removable biomechanical maxillary appliance
+Removable mandibular biomechanical appliance
+functional appliance
+Fixed devices
+Complete maxillary fixed appliance
+Complete fixed mandibular appliance
+partial fixed braces
+Fixed expansion device
+Transition from partial to complete fixed appliance
+Extra-oral orthopedic device
+containment devices
+Removable containment device
+Fixed containment device
+Orthognathic surgery
+surgical simulations
+Surgical simulation in study models
+Cephalometric surgical simulation
+surgical drip
+Removable appliance repair
+Control queries
+Biomechanical removable device control
+Functional removable device control
+Fixed device control
+Extra-oral orthopedic appliance control
+Containment device control
+orthodontic implant
+various interventions
+Occlusal adjustment by subtraction/selective wear
+Occlusal adjustment by addition
+Control of occlusal relationship and clinical status in TMD or OFP
+Intervention in an urgent situation of TMD or DOF
+Written treatment plan referring to TMD or DOF
+Clinical expert report referring to TMD or DOF
+Intraoral anesthetic infiltration in TMD or DOF
+Extraoral anesthetic infiltration in TMD or DOF
+Assembly of models in articulator
+Assembly of models in semi-adjustable articulator, without individual values
+Assembly of models in semi-adjustable articulator, with individual values
+Mounting models on fully adjustable articulator
+Occlusal analysis of articulator-mounted models
+Diagnostic occlusal wax-up
+Axiography / Kinesiography
+mechanical axiography
+Electronic or digital axiography
+Kinesiography for the study of mandibular kinematics
+electromyography
+surface electromyography
+Myofacial trigger point inactivation
+Session of T.E.N.S. (myomonitor)
+Electrosonography (electrovibrography) of the TMJ
+Bio-feedback myorelaxation
+Maxillary interposition appliances
+Manufacture and clinical adaptation of a maxillary interposition appliance for myorelaxation
+Manufacture and clinical adaptation of a maxillary interposition appliance for mandibular repositioning
+Manufacture and clinical adaptation of a maxillary interposition appliance to control obstructive sleep apnea
+Manufacture and clinical adaptation of a maxillary interposition appliance for intervention in an urgent situation
+Manufacture and clinical adaptation of a non-resilient maxillary interposition appliance to prevent wear by bruxism
+Fabrication and clinical adaptation of a resilient maxillary interposition appliance
+Clinical control of maxillary interposition appliance
+Mandibular interposition appliances
+Manufacture and clinical adaptation of a mandibular interposition appliance for myorelaxation
+Manufacture and clinical adaptation of a mandibular interposition appliance for mandibular repositioning
+Manufacture and clinical adaptation of a mandibular interposition appliance to control obstructive sleep apnea
+Manufacture and clinical adaptation of a mandibular interposition appliance for intervention in an urgent situation
+Manufacture and clinical adaptation of a non-resilient mandibular interposition appliance to prevent wear by bruxism
+Fabrication and clinical adaptation of a resilient mandibular interposition appliance
+Clinical control of mandibular interposition appliance
+intraoral radiology
+Performing and interpreting imaging tests
+Performing and interpreting periapical radiography
+Performing and interpreting interproximal radiography
+Performing and interpreting occlusal radiography
+Realization and interpretation of seriography
+Carrying out imaging tests
+Periapical radiography
+Interproximal radiography
+Occlusal radiography
+Realization of seriography
+extra-oral radiology
+Performing and interpreting imaging tests
+Performing and interpreting panoramic radiography
+Performing and interpreting lateral teleradiography
+Performing and interpreting frontal teleradiography
+Performing and interpreting axial radiography (Hirtz)
+Performing and interpreting anteroposterior radiography of the maxillary sinuses
+Performing and interpreting TMJ radiography
+Performing and interpreting transcranial radiography
+Performing and interpreting transfacial radiography
+Performing and interpreting hand and wrist radiographs
+Performing and interpreting computed tomography
+Carrying out imaging tests
+Performing a panoramic radiograph
+Performing lateral teleradiography
+Frontal teleradiography
+Axial radiography (Hirtz)
+Anteroposterior radiography of the maxillary sinuses
+TMJ radiography
+Transcranial radiography
+Performing a transfacial radiograph
+Hand and wrist radiography
+Computed tomography scan
+Interpretation of imaging tests
+Interpretation of panoramic radiography
+Lateral teleradiography interpretation
+Frontal teleradiography interpretation
+Axial radiography (Hirtz) interpretation
+Interpretation of anteroposterior radiograph of the maxillary sinuses
+Interpretation of TMJ radiography
+Interpretation of transcranial radiography
+Interpretation of transfacial radiography
+Interpretation of hand and wrist radiographs
+Interpretation of computed tomography
+MRI interpretation
+clinical photography
+Intraoral photographic record
+Extra-oral photographic record
+Model photographic record
+Photographic record of imaging exams

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "921471576191",
+    "project_id": "oralhealth-380514",
+    "storage_bucket": "oralhealth-380514.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921471576191:android:bf76bc55454ab45091374a",
+        "android_client_info": {
+          "package_name": "com.teethwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921471576191-mr5ggnj5k66n1vdso96nv05ep49jaou0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnONL42fXQg1Mrkpa0tXOTvKn5H2vInsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921471576191-mr5ggnj5k66n1vdso96nv05ep49jaou0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

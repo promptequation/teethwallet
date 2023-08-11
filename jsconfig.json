@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./frontend",
+    "paths": {
+      "src/*": [
+        "frontend/mobile/src/*"
+      ],
+      "app/*": [
+        "*"
+      ],
+      "components/*": [
+        "frontend/mobile/src/components/*"
+      ],
+      "layouts/*": [
+        "frontend/mobile/src/layouts/*"
+      ],
+      "pages/*": [
+        "frontend/mobile/src/pages/*"
+      ],
+      "assets/*": [
+        "frontend/mobile/src/assets/*"
+      ],
+      "boot/*": [
+        "frontend/mobile/src/boot/*"
+      ],
+      "vue$": [
+        "frontend/mobile/node_modules/vue/dist/vue.runtime.esm-bundler.js"
+      ]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}

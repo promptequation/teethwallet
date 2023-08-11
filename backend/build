@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python manage.py migrate
+python manage.py createsuperuser --username=dd --email=dd@dd.pt
+python manage.py runserver

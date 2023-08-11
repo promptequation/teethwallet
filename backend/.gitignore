@@ -1,0 +1,74 @@
+*.py[cod]
+.*
+!.babelrc
+!.circleci
+!.codeclimate.yml
+!.coveragerc
+!.dockerignore
+!.eslintrc.json
+!.flowconfig
+!.github
+!.gitignore
+!.gqlconfig
+!.npmrc
+!.nvmrc
+!.plop
+!.pylintrc
+!.testcafe
+!.travis*
+!.tx
+*.log
+*.pot
+*.pyc
+local_settings.py
+__pycache__/
+build/
+coverage/
+coverage/
+dist/
+*.sqlite
+*\.egg*
+.gitkeep
+# data
+/media/
+/node_modules/
+/static/
+
+# Environments
+.env
+.venv
+venv/
+
+# Dependency directories
+node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# NPM config
+.npmrc
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Rollup generate output
+lib
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Editor directories and files
+.idea
+.vscode
+
+# OS generated files
+.DS_STORE
+
+#db
+db.sqlite3
+
+#migrations
+*.json

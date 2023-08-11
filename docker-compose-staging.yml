@@ -1,0 +1,173 @@
+version: "3"
+
+services:
+    api:
+        build:
+            context: ./backend
+            dockerfile: ./Dockerfile
+        restart: unless-stopped
+        networks:
+            - oehealth
+        depends_on:
+            - db
+            - redis
+        volumes:
+            - oehealth-media:/app/media
+            - oehealth-static:/app/static
+        command: python manage.py runserver 0.0.0.0:8000
+        env_file: env.staging
+        environment:
+            - FRONTEND_URL=http://localhost:3000/
+
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: ./website/Dockerfile
+        restart: unless-stopped
+        env_file: env.staging
+        networks:
+            - oehealth
+        command: yarn start
+
+    db:
+        image: postgres:11-alpine
+        ports:
+            - 5433:5432
+        restart: unless-stopped
+        networks:
+            - oehealth
+        volumes:
+            - oehealth-db:/var/lib/postgresql/data
+        environment:
+            - POSTGRES_USER=ohealth
+            - POSTGRES_PASSWORD=ohealth
+            - POSTGRES_DB=ohealth
+
+    worker:
+        build:
+            context: ./backend
+            dockerfile: ./Dockerfile
+            args:
+                STATIC_URL: "/static/"
+        command: celery -A backend --app=backend.celery:app worker --loglevel=info
+        restart: unless-stopped
+        networks:
+            - oehealth
+        env_file: env.staging
+        depends_on:
+            - redis
+            - mailhog
+        volumes:
+            - ./oehealth/templates/:/app/templates:Z,cached
+            # shared volume between worker and api for media
+            - oehealth-media:/app/media
+            - oehealth-static:/app/static
+
+    redis:
+        image: redis:alpine
+        command: redis-server --requirepass 4f6bbbb3eb3fdda88990143e
+        env_file: env.staging
+        ports:
+            - 6379:6379
+        restart: unless-stopped
+        networks:
+            - oehealth
+        volumes:
+            - oehealth-redis:/data
+
+    mailhog:
+        image: mailhog/mailhog
+        ports:
+            - 1025:1025 # smtp server
+            - 8025:8025 # web ui. Visit http://localhost:8025/ to check emails
+        restart: unless-stopped
+        networks:
+            - oehealth
+
+    nginx:
+        image: nginx:latest
+        volumes:
+            - ./nginx/templates:/etc/nginx/templates
+            - certbot-etc:/etc/letsencrypt
+            - certbot-var:/var/lib/letsencrypt
+            - web-root1:/var/www/oehealth
+            - web-root2:/var/www/oehealth-api
+            - oehealth-media:/var/www/media
+            - oehealth-static:/var/www/static
+        networks:
+            - oehealth
+        ports:
+            - 443:443
+        depends_on:
+            - nginx_cert
+            - api
+            - frontend
+        environment:
+            - NGINX_HOST=oehealth.promptequation.com
+            - API_HOST=oehealth-api.promptequation.com
+
+    nginx_cert:
+        image: nginx:latest
+        volumes:
+            - ./nginx/templates_http:/etc/nginx/templates
+            - certbot-etc:/etc/letsencrypt
+            - certbot-var:/var/lib/letsencrypt
+            - web-root1:/var/www/oehealth
+            - web-root2:/var/www/oehealth-api
+            - oehealth-media:/var/www/media
+            - oehealth-static:/var/www/static
+        networks:
+            - oehealth
+        ports:
+            - 80:80
+        depends_on:
+            - api
+            - frontend
+        environment:
+            - NGINX_HOST=oehealth.promptequation.com
+            - API_HOST=oehealth-api.promptequation.com
+
+    certbot1:
+        image: certbot/certbot
+        volumes:
+            - certbot-etc:/etc/letsencrypt
+            - certbot-var:/var/lib/letsencrypt
+            - web-root1:/var/www/oehealth
+        depends_on:
+            - nginx_cert
+        command: certonly --webroot --webroot-path=/var/www/oehealth --email support@odoogap.com --agree-tos --no-eff-email -n --cert-name oehealth.promptequation.com -d oehealth.promptequation.com
+    certbot2:
+        image: certbot/certbot
+        volumes:
+            - certbot-etc:/etc/letsencrypt
+            - certbot-var:/var/lib/letsencrypt
+            - web-root2:/var/www/oehealth-api
+        depends_on:
+            - nginx_cert
+        command: certonly --webroot --webroot-path=/var/www/oehealth-api --email support@odoogap.com --agree-tos --no-eff-email -n --cert-name oehealth-api.promptequation.com -d oehealth-api.promptequation.com
+
+volumes:
+    oehealth-media:
+        driver: local
+    oehealth-static:
+        driver: local
+    oehealth-db:
+        driver: local
+    oehealth-redis:
+        driver: local
+    certbot-etc:
+        driver: local
+    certbot-var:
+        driver: local
+    web-root1:
+        driver: local
+    web-root2:
+        driver: local
+        # driver_opts:
+        #     type: none
+        #     device: /home/ogap/.views/
+        #     o: bind
+
+networks:
+    oehealth:
+        driver: bridge

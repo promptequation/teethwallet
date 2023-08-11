@@ -1,0 +1,31 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+// Globals
+$body-font-family: "Poppins", sans-serif !default;
+$border-radius-root: 3px;
+
+// Custom variables
+$subtitle-color: #a1aab2;
+
+$info: #1e88e5;
+$gray-500: #a1aab2;
+
+$light-primary: #e6ecfc;
+$light-warning: #fff8ec;
+$light-success: #e8fdf8;
+$light-danger: #f9e7eb;
+
+$box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.1);
+
+$primary: #1e88e5;
+$info: #1e88e5;
+$success: #21c1d6;
+$accent: #fc4b6c;
+$default: #563dea;
+
+$shadow-key-umbra-opacity: rgb(183 192 206 / 20%);
+$shadow-key-penumbra-opacity: rgb(183 192 206 / 20%);
+$shadow-key-ambient-opacity: rgb(183 192 206 / 20%);
+$text-field-filled-full-width-outlined-slot-min-height: 46px;

@@ -1,0 +1,369 @@
+Disorders of tooth development and eruption
+Anodontia
+Hypodontia
+Oligodontia
+Supernumerary teeth
+Distomolar
+Fourth molar
+Mesiodens
+Paramolar
+Supplementary teeth
+Abnormalities of size and form of teeth
+Concrescence of teeth
+Fusion of teeth
+Gemination of teeth
+Dens
+evaginatus
+in dente
+invaginatus
+Enamel pearls
+Macrodontia
+Microdontia
+Peg-shaped [conical] teeth
+Taurodontism
+Tuberculum paramolare
+Mottled teeth
+Dental fluorosis
+Mottling of enamel
+Nonfluoride enamel opacities
+Disturbances in tooth formation
+Aplasia and hypoplasia of cementum
+Dilaceration of tooth
+Enamel hypoplasia (neonatal)(postnatal)(prenatal)
+Regional odontodysplasia
+Turner tooth
+Hereditary disturbances in tooth structure, not elsewhere classified
+Amelogenesis imperfecta
+Dentinogenesis imperfecta
+Odontogenesis imperfecta
+Dentinal dysplasia
+Shell teeth
+Disturbances in tooth eruption
+Dentia praecox
+Natal tooth
+Neonatal tooth
+Premature eruption of tooth
+Premature shedding of primary [deciduous] tooth
+Retained [persistent] primary tooth
+Teething syndrome
+Other disorders of tooth development
+Disorder of tooth development, unspecified
+Embedded and impacted teeth
+Embedded teeth
+Impacted teeth
+Dental caries
+Caries limited to enamel
+Caries of dentine
+Caries of cementum
+Arrested dental caries
+Odontoclasia
+Infantile melanodontia
+Melanodontoclasia
+Caries with pulp exposure
+Other dental caries
+Dental caries, unspecified
+Other diseases of hard tissues of teeth
+bruxism
+dental caries
+teeth-grinding NOS
+Excessive attrition of teeth
+Wear approximal of teeth
+Wear aocclusal of teeth
+Abrasion of teeth
+Abrasion dentrifice of teeth
+Abrasion habitual of teeth
+Abrasion occupational of teeth
+Abrasion ritual of teeth
+Abrasion traditional of teeth
+Wedge defect NOS
+Erosion of teeth
+Erosion of teeth NOS
+Erosion of teeth due to diet
+Erosion of teeth due to drugs and medicaments
+Erosion of teeth due to persistent vomiting
+Erosion of teeth due to idiopathic
+Erosion of teeth due to occupational
+Pathological resorption of teeth
+Internal granuloma of pulp
+Resorption of teeth (external)
+Hypercementosis
+Cementation hyperplasia
+Ankylosis of teeth
+Deposits [accretions] on teeth
+Dental calculus subgingival
+Dental calculus supragingival
+Deposits [accretions] on teeth betel
+Deposits [accretions] on teeth black
+Deposits [accretions] on teeth green
+Deposits [accretions] on teeth material alba
+Deposits [accretions] on teeth orange
+Deposits [accretions] on teeth tobacco
+Staining of teeth NOS
+Staining of teeth extrinsic NOS
+Posteruptive colour changes of dental hard tissues
+Other specified diseases of hard tissues of teeth
+Irradiated enamel
+Sensitive dentine
+Disease of hard tissues of teeth, unspecified
+Diseases of pulp and periapical tissues
+Pulpitis
+Necrosis of pulp
+Pulpal gangrene
+Pulp degeneration
+Denticles
+Pulpal calcifications
+Pulpal stones
+Abnormal hard tissue formation in pulp
+Secondary or irregular dentine
+Acute apical periodontitis of pulpal origin
+Acute apical periodontitis NOS
+Chronic apical periodontitis
+Apical or periapical granuloma
+Apical periodontitis NOS
+Periapical abscess with sinus
+Dental abscess with sinus
+Dentoalveolar abscess with sinus
+Periapical abscess without sinus
+Dental abscess NOS
+Dentoalveolar abscess NOS
+Periapical abscess NOS
+Radicular cyst
+Cyst apical (periodontal)
+Cyst periapical
+Cyst residual radicular
+Gingivitis and periodontal disease
+Acute gingivitis
+Chronic gingivitis
+Gingivitis (chronic) NOS
+Gingivitis (chronic) desquamative
+Gingivitis (chronic) hyperplastic
+Gingivitis (chronic) simple marginal
+Gingivitis (chronic) ulcerative
+Acute periodontitis
+Acute pericoronitis
+Parodontal abscess
+Periodontal abscess
+Chronic periodontitis
+Chronic pericoronitis
+Periodontitis NOS
+Periodontitis complex
+Periodontitis simplex
+Periodontosis
+Juvenile periodontosis
+Other periodontal diseases
+Periodontal disease, unspecified
+Other disorders of gingiva and edentulous alveolar ridge
+Gingival recession
+Gingival recession (generalized)(localized)(postinfective)(post-operative)
+Gingival enlargement
+Gingival fibromatosis
+Gingival and edentulous alveolar ridge lesions associated with trauma
+Irritative hyperplasia of edentulous ridge [denture hyperplasia]
+Use additional external cause code (Chapter XX), if desired, to identify cause.
+Other specified disorders of gingiva and edentulous alveolar ridge
+Fibrous epulis
+Flabby ridge
+Giant cell epulis
+Peripheral giant cell granuloma
+Pyogenic granuloma of gingiva
+Disorder of gingiva and edentulous alveolar ridge, unspecified
+Dentofacial anomalies [including malocclusion]
+Major anomalies of jaw size
+Hyperplasia, hypoplasia:
+mandibular
+maxillary
+Macrognathism (mandibular)(maxillary)
+Micrognathism (mandibular)(maxillary)
+Anomalies of jaw-cranial base relationship
+Asymmetry of jaw
+Prognathism (mandibular)(maxillary)
+Retrognathism (mandibular)(maxillary)
+Anomalies of dental arch relationship
+Crossbite (anterior)(posterior)
+Disto-occlusion
+Mesio-occlusion
+Midline deviation of dental arch
+Openbite (anterior)(posterior)
+Overbite (excessive) deep
+Overbite (excessive)  horizontal
+Overbite (excessive)  vertical
+Posterior lingual occlusion of mandibular teeth
+Anomalies of tooth position
+Crowding of tooth or teeth
+Diastema of tooth or teeth
+Displacement of tooth or teeth
+Rotation of tooth or teeth
+Spacing, abnormal of tooth or teeth
+Transposition of tooth or teeth
+Impacted or embedded teeth with abnormal position of such teeth or adjacent teeth
+Malocclusion, unspecified
+Dentofacial functional abnormalities
+Abnormal jaw closure
+Malocclusion due to abnormal swallowing
+Malocclusion due to mouth breathing
+Malocclusion due to tongue, lip or finger habits
+Temporomandibular joint disorders
+Costen complex or syndrome
+Derangement of temporomandibular joint
+Snapping jaw
+Temporomandibular joint-pain-dysfunction syndrome
+Other dentofacial anomalies
+Dentofacial anomaly, unspecified
+Other disorders of teeth and supporting structures
+Exfoliation of teeth due to systemic causes
+Loss of teeth due to accident, extraction or local periodontal disease
+Atrophy of edentulous alveolar ridge
+Retained dental root
+Other specified disorders of teeth and supporting structures
+Alveolar (process) cleft
+Enlargement of alveolar ridge NOS
+Irregular alveolar process
+Toothache NOS
+Disorder of teeth and supporting structures, unspecified
+Cysts of oral region, not elsewhere classified
+Incl.: lesions showing histological features both of aneurysmal cyst and of another fibro-osseous lesion
+Developmental odontogenic cysts
+Cyst dentigerous
+Cyst eruption
+Cyst follicular
+Cyst gingival
+Cyst lateral periodontal
+Cyst primordial
+Developmental (nonodontogenic) cysts of oral region
+Cyst (of) nasolabial [nasoalveolar]
+Cyst (of) nasopalatine duct [incisive canal]
+Other cysts of jaw
+Cyst of jaw NOS
+Cyst of jaw aneurysmal
+Cyst of jaw haemorrhagic
+Cyst of jaw traumatic
+Other cysts of oral region, not elsewhere classified
+Dermoid cyst of mouth
+Epidermoid cyst of mouth
+Lymphoepithelial cyst of mouth
+Epstein pearl
+Cyst of oral region, unspecified
+Other diseases of jaws
+Developmental disorders of jaws
+Latent bone cyst of jaw
+Stafne cyst
+Torus mandibularis
+Torus palatinus
+Giant cell granuloma, central
+Giant cell granuloma NOS
+Inflammatory conditions of jaws
+Osteitis of jaw (acute)(chronic)(suppurative)
+Osteomyelitis (neonatal) of jaw (acute)(chronic)(suppurative)
+Osteonecrosis (drug-induced)(radiation-induced) of jaw (acute)(chronic)(suppurative)
+Osteo(radio)necrosis of jaw (acute)(chronic)(suppurative)
+Periostitis of jaw (acute)(chronic)(suppurative)
+Sequestrum of jaw bone
+Alveolitis of jaws
+Alveolar osteitis
+Dry socket
+Other specified diseases of jaws
+Cherubism
+Exostosis of jaw
+Fibrous dysplasia of jaw
+Unilateral condylar hyperplasia
+Unilateral condylar hypoplasia
+Disease of jaws, unspecified
+Diseases of salivary glands
+Atrophy of salivary gland
+Hypertrophy of salivary gland
+Sialoadenitis
+Abscess of salivary gland
+Fistula of salivary gland
+Sialolithiasis
+Calculus Stone of salivary gland or duct
+Mucocele of salivary gland
+Mucous extravasation cyst of salivary gland
+Mucous retention cyst of salivary gland
+Ranula
+Disturbances of salivary secretion
+Hypoptyalism
+Ptyalism
+Xerostomia
+Other diseases of salivary glands
+Benign lymphoepithelial lesion of salivary gland
+Mikulicz disease
+Necrotizing sialometaplasia
+Sialectasia
+Stenosis of salivary duct
+Stricture of salivary duct
+Disease of salivary gland, unspecified
+Sialoadenopathy NOS
+Stomatitis and related lesions
+Recurrent oral aphthae
+Aphthous stomatitis (major)(minor)
+Bednar aphthae
+Periadenitis mucosa necrotica recurrens
+Recurrent aphthous ulcer
+Stomatitis herpetiformis
+Other forms of stomatitis
+Stomatitis NOS
+Stomatitis denture
+Stomatitis ulcerative
+Stomatitis vesicular
+Cellulitis and abscess of mouth
+Cellulitis of mouth (floor)
+Submandibular abscess
+Oral mucositis (ulcerative)
+Mucositis(oral) (oropharyngeal) NOS
+Mucositis(oral) (oropharyngeal) drug-induced
+Mucositis(oral) (oropharyngeal) radiation induced
+Mucositis(oral) (oropharyngeal) viral
+Other diseases of lip and oral mucosa
+epithelial disturbances of tongue
+Diseases of lips
+Cheilitis NOS
+Cheilitis angular
+Cheilitis exfoliative
+Cheilitis glandular
+Cheilitis Cheilodynia
+Cheilitis Cheilosis
+Cheilitis Perlèche NEC
+Cheek and lip biting
+Leukoplakia and other disturbances of oral epithelium, including tongue
+Erythroplakia of oral epithelium, including tongue
+Leukoedema of oral epithelium, including tongue
+Leukokeratosis nicotina palati
+Smoker palate
+Granuloma and granuloma-like lesions of oral mucosa
+Eosinophilic granuloma of oral mucosa
+Granuloma pyogenicum of oral mucosa
+Verrucous xanthoma of oral mucosa
+Oral submucous fibrosis
+Submucous fibrosis of tongue
+Irritative hyperplasia of oral mucosa
+Other and unspecified lesions of oral mucosa
+Focal oral mucinosis
+Diseases of tongue
+Glossitis
+Abscess of tongue
+Ulceration (traumatic) of tongue
+Geographic tongue
+Benign migratory glossitis
+Glossitis areata exfoliativa
+Median rhomboid glossitis
+Hypertrophy of tongue papillae
+Black hairy tongue
+Coated tongue
+Hypertrophy of foliate papillae
+Lingua villosa nigra
+Atrophy of tongue papillae
+Atrophic glossitis
+Plicated tongue
+Fissured tongue
+Furrowed tongue
+Scrotal tongue
+Glossodynia
+Glossopyrosis
+Painful tongue
+Other diseases of tongue
+Atrophy (of) tongue
+Crenated (of) tongue
+Enlargement (of) tongue
+Hypertrophy (of) tongue
+Disease of tongue, unspecified
+Glossopathy NOS

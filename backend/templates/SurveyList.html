@@ -1,0 +1,24 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+{% block content %}
+<style>
+.btn {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    }
+.btn_color {background-color: #417690;}
+
+
+</style>
+<div>
+    <h1>Survey Download List:</h1><br>
+    {% for sur in survey %}
+    <li><a href="{{sur.id}}/">{{sur.name}}.csv</a></li>
+    {% endfor %}
+</div>
+
+{% endblock %}

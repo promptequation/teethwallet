@@ -1,0 +1,88 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.4s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+button {
+  z-index: 1;
+}
+
+.fill:hover {
+  background-color: #29589c;
+  color: white !important;
+}
+
+.fill:hover:before {
+  top: 0;
+}
+
+.fill:before {
+  content: "";
+  position: absolute;
+  background: #383736;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  transition: top 2s ease-in;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.text-underline {
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.text-underline:before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  border-bottom: 3px solid #7ea3d6;
+}
+
+.Vue-Toastification__container .bottom-center {
+  bottom: 40px;
+}
+
+#chat .vac-textarea {
+  border-radius: 8px;
+}
+
+.vac-room-header,
+.vac-room-footer {
+  z-index: 4 !important;
+}
+
+.v-input__prepend-inner {
+  margin-top: 10px !important;
+}
+
+// $vt-color-error: #F44336; 
+// $vt-text-color-error: white;
+// $vt-color-success: #198754; 
+// $vt-text-color-success: white;
+
+// @import "vue-toastification/src/scss/_variables";
+// @import "vue-toastification/src/scss/_toastContainer";
+// @import "vue-toastification/src/scss/_toast";
+// @import "vue-toastification/src/scss/_closeButton";
+// @import "vue-toastification/src/scss/_progressBar";
+// @import "vue-toastification/src/scss/_icon";
+// @import "vue-toastification/src/scss/animations/_bounce";
+
+// import perfect scrollbar
+@import '~perfect-scrollbar';
+@import "chat";

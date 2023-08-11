@@ -1,0 +1,25 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+{% block content %}
+<style>
+.btn {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    }
+.btn_color {background-color: #417690;}
+
+
+</style>
+<div>
+    <form action="." enctype="multipart/form-data" method="POST">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <button class="btn btn_color" type="submit">Save File</button>
+    </form>
+</div>
+
+{% endblock %}

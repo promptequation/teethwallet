@@ -1,0 +1,105 @@
+{% extends "admin/change_list.html" %} {% load static %} {% block content %}
+
+<style>
+    .tools {
+        font-size: 17px;
+        font-weight: bold;
+        padding-left: 0;
+        float: right;
+        position: relative;
+        margin-top: -48px;
+    }
+
+    .tools li {
+        display: block;
+        float: left;
+        margin-left: 5px;
+        margin-right: 2px;
+        height: 16px;
+    }
+
+    .tools a {
+        border-radius: 15px;
+    }
+
+    .tools a:link,
+    .object-tools a:visited {
+        display: block;
+        float: left;
+        padding: 3px 12px;
+        background: var(--object-tools-bg);
+        color: var(--object-tools-fg);
+        font-weight: 400;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .tools a:focus,
+    .object-tools a:hover {
+        background-color: var(--object-tools-hover-bg);
+    }
+
+    .tools a:focus {
+        text-decoration: none;
+    }
+
+    .tools a.viewsitelink,
+    .object-tools a.addlink {
+        background-repeat: no-repeat;
+        background-position: right 7px center;
+        padding-right: 26px;
+    }
+
+    .tools a:visited {
+        color: #ffffff;
+        text-decoration: none;
+        transition: color 0.15s, background 0.15s;
+    }
+</style>
+
+<ul class="tools">
+    <li><a href="upload-file/">upload excel file</a></li>
+
+    <!-- <li>
+        <a class="import_link" href="/admin/common/treatmentlang/import/"
+            >Import</a
+        >
+    </li> -->
+
+    <li>
+        <a class="export_link" href="/admin/common/treatmentlang/export/?"
+            >Export</a
+        >
+    </li>
+
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+{{ block.super }} {% endblock %}

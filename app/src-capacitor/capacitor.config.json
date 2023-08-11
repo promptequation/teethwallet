@@ -1,0 +1,16 @@
+{
+  "appId": "com.teethwallet",
+  "appName": "TeethWallet",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www",
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  }
+}

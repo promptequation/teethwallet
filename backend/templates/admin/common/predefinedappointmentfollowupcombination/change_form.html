@@ -1,0 +1,42 @@
+{% extends "admin/change_form.html" %} {% load static %} {% block content %}
+<h1>Follow Up Duration: <span id="duration"></span></h1>
+{{ block.super }}
+<script>
+    let date = null;
+    let time = null;
+    let current = new Date();
+    let offset = new Date().getTimezoneOffset();
+    const updateDOM = (datetime) => {
+        datetime = new Date(datetime.getTime() - offset * 60 * 1000);
+        let difference = datetime - current;
+        let month, day, hour, minute, second;
+        second = Math.floor(difference / 1000);
+        minute = Math.floor(second / 60);
+        second = second % 60;
+        hour = Math.floor(minute / 60);
+        minute = minute % 60;
+        day = Math.floor(hour / 24);
+        hour = hour % 24;
+        document.getElementById("duration").innerHTML =
+            day + " days " + hour + " hours " + minute + " minutes ";
+    };
+    document
+        .getElementById("id_follow_up_date_0")
+        .addEventListener("blur", function (e) {
+            date = e.target.value;
+            if (date !== null && time !== null) {
+                let datetime = new Date(date + " " + time);
+                updateDOM(datetime);
+            }
+        });
+    document
+        .getElementById("id_follow_up_date_1")
+        .addEventListener("blur", function (e) {
+            time = e.target.value;
+            if (date !== null && time !== null) {
+                let datetime = new Date(date + " " + time);
+                updateDOM(datetime);
+            }
+        });
+</script>
+{% endblock %}

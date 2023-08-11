@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ],
+      "@types/*": [
+        "./types/*"
+      ],
+      "@store/*": [
+        "./store/*"
+      ],
+      "@layouts/*": [
+        "./layouts/*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@composables/*": [
+        "./composables/*"
+      ],
+      "@common-composables/*": [
+        "../../composables/*"
+      ],
+      "@common-components/*": [
+        "../components/*"
+      ],
+      "@common-store/*": [
+        "../store/*"
+      ]
+    },
+    "types": [
+      "@types/node",
+      "@nuxt/types",
+      "vue-toastification/nuxt",
+      "@nuxtjs/dayjs",
+      "dayjs/plugin/relativeTime",
+      "dayjs/plugin/advancedFormat",
+      "dayjs/plugin/localizedFormat",
+      "dayjs/plugin/calendar",
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

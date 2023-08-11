@@ -1,0 +1,139 @@
+server {
+    listen 80;
+    listen 443 ssl http2;
+    server_name ${NGINX_HOST} default_server;
+
+    if ( $scheme = "http" ) {
+       return 301 https://$host$request_uri;
+    }
+
+    add_header X-Robots-Tag "noindex, nofollow";
+
+    location / {
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+	    proxy_set_header X-Nginx-Proxy true;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+
+        proxy_pass http://frontend:3000;
+        proxy_redirect off;
+    }
+
+    location ~ /.well-known/acme-challenge {
+        allow all;
+        root /var/www/oehealth;
+    }
+
+    ssl_certificate /etc/letsencrypt/live/${NGINX_HOST}/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/${NGINX_HOST}/privkey.pem;
+}
+
+server {
+    listen 80;
+    listen 443 ssl http2;
+    server_name ${API_HOST} default_server;
+
+    if ( $scheme = "http" ) {
+       return 301 https://$host$request_uri;
+    }
+
+    add_header X-Robots-Tag "noindex, nofollow";
+
+    location /static {
+        alias /var/www/static;
+    }
+
+    location /media {
+        if ($request_method = 'OPTIONS') {
+            add_header 'Access-Control-Allow-Origin' '*';
+            add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+            #
+            # Custom headers and headers various browsers *should* be OK with but aren't
+            #
+            add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range';
+            #
+            # Tell client that this pre-flight info is valid for 20 days
+            #
+            add_header 'Access-Control-Max-Age' 1728000;
+            add_header 'Content-Type' 'text/plain; charset=utf-8';
+            add_header 'Content-Length' 0;
+            return 204;
+        }
+
+        if ($request_method = 'GET') {
+            add_header 'Access-Control-Allow-Origin' '*' always;
+            add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS' always;
+            add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range' always;
+            add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range' always;
+        }
+        alias /var/www/media;
+    }
+
+    location / {
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+	    proxy_set_header X-Nginx-Proxy true;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+
+        proxy_pass http://api:8000;
+        proxy_redirect off;
+    }
+
+    location ~ /.well-known/acme-challenge {
+        allow all;
+        root /var/www/oehealth-api;
+    }
+
+    ssl_certificate /etc/letsencrypt/live/${API_HOST}/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/${API_HOST}/privkey.pem;
+}
+
+server {
+    listen 80;
+    listen 443 ssl http2;
+    server_name ${ODOO_HOST} default_server;
+
+    if ( $scheme = "http" ) {
+       return 301 https://$host$request_uri;
+    }
+
+    proxy_read_timeout 720s;
+    proxy_connect_timeout 720s;
+    proxy_send_timeout 720s;
+
+    # Add Headers for odoo proxy mode
+    proxy_set_header X-Forwarded-Host $host;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Real-IP $remote_addr;
+
+    location /longpolling {
+        proxy_pass http://odoo:8072;
+    }
+
+    location / {
+        proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
+        proxy_redirect off;
+        proxy_pass http://odoo:8069;
+    }
+
+    location ~ /.well-known/acme-challenge {
+        allow all;
+        root /var/www/odoo;
+    }
+
+    ssl_certificate /etc/letsencrypt/live/${ODOO_HOST}/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/${ODOO_HOST}/privkey.pem;
+
+    # common gzip
+    gzip_types text/css text/scss text/plain text/xml application/xml application/json application/javascript;
+    gzip on;
+}

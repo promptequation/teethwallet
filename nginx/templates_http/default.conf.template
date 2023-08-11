@@ -1,0 +1,26 @@
+server {
+    listen 80;
+    server_name ${NGINX_HOST} default_server;
+    location ~ /.well-known/acme-challenge {
+        allow all;
+        root /var/www/oehealth;
+    }
+}
+
+server {
+    listen 80;
+    server_name ${API_HOST} default_server;
+    location ~ /.well-known/acme-challenge {
+        allow all;
+        root /var/www/oehealth-api;
+    }
+}
+
+server {
+    listen 80;
+    server_name ${ODOO_HOST} default_server;
+    location ~ /.well-known/acme-challenge {
+        allow all;
+        root /var/www/odoo;
+    }
+}
