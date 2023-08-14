@@ -1,4 +1,5 @@
 # OeHMP - Oral e-Health Monitoring Platform
+<img title="Oral e-Health Monitoring Platform" src="/OeHMP_logo.jpg">
 
 ## How to develop • Vue.js/Nuxt.js Frontend
 
